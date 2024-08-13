@@ -36,6 +36,10 @@ npm install
 npm start
 ```
 
+![photo-collage png](https://github.com/user-attachments/assets/edc22f96-dbf4-48ba-977d-57523eb8f602)
+
+
+
 # Backend
 ## Clone the repository:
 ```bash
