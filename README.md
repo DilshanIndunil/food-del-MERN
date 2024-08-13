@@ -64,6 +64,9 @@ Create a .env file in the root directory and add the following:
 npm run dev
 ```
 
+![photo-collage png (1)](https://github.com/user-attachments/assets/9c4bbe77-6e2b-4b46-9e62-b0c57757cc96)
+
+
 ## Contributing
 Fork the repository.
 Create your feature branch (git checkout -b feature/fooBar).
