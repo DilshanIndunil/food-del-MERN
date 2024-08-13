@@ -69,10 +69,10 @@ npm run dev
 
 ## Contributing
 Fork the repository.
-Create your feature branch (git checkout -b feature/fooBar).
-Commit your changes (git commit -m 'Add some fooBar').
-Push to the branch (git push origin feature/fooBar).
-Create a new Pull Request.
+-- Create your feature branch (git checkout -b feature/fooBar).
+-- Commit your changes (git commit -m 'Add some fooBar').
+-- Push to the branch (git push origin feature/fooBar).
+-- Create a new Pull Request.
 
 #License
 
