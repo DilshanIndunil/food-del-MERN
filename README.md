@@ -64,7 +64,7 @@ Create a .env file in the root directory and add the following:
 npm run dev
 ```
 
-![photo-collage png (1)](https://github.com/user-attachments/assets/9c4bbe77-6e2b-4b46-9e62-b0c57757cc96)
+![photo-collage png (2)](https://github.com/user-attachments/assets/4e188924-833e-441c-84d2-94a6749f3a5b)
 
 
 ## Contributing
