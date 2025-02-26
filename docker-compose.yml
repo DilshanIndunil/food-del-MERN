@@ -11,7 +11,7 @@ services:
             - /app/node_modules
         environment:
             - NODE_ENV=development
-            - MONGO_URI=mongodb+srv://dilshanindunilrajapaksha1:dilshan12345@cluster0.jeyw7.mongodb.net/food-del
+            - MONGO_URI=mongodb+srv://<clusterName>:<password>@cluster0.jeyw7.mongodb.net/food-del
 
     frontend:
         build:
