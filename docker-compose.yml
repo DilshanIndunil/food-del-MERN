@@ -1,0 +1,41 @@
+services:
+
+    backend:
+        build:
+            context: ./backend
+            dockerfile: Dockerfile
+        ports:
+            - "4000:4000"
+        volumes:
+            - ./backend:/app
+            - /app/node_modules
+        environment:
+            - NODE_ENV=development
+            - MONGO_URI=mongodb+srv://dilshanindunilrajapaksha1:dilshan12345@cluster0.jeyw7.mongodb.net/food-del
+
+    frontend:
+        build:
+            context: ./frontend
+            dockerfile: Dockerfile
+        ports:
+            - "5173:5173"
+        volumes:
+            - ./frontend:/app
+            - /app/node_modules
+        environment:
+            - NODE_ENV=development
+        depends_on:
+            - backend
+    admin:
+        build:
+            context: ./admin
+            dockerfile: Dockerfile
+        ports:
+            - "5174:5173"
+        volumes:
+            - ./admin:/app
+            - /app/node_modules
+        environment:
+            - NODE_ENV=development
+        depends_on:
+            - backend
